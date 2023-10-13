@@ -1,13 +1,45 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (7.1.1)
+      base64
+      bigdecimal
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      connection_pool (>= 2.2.5)
+      drb
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      mutex_m
+      tzinfo (~> 2.0)
+    base64 (0.1.1)
+    benchmark (0.2.1)
+    bigdecimal (3.1.4)
+    cgi (0.3.6)
+    concurrent-ruby (1.2.2)
+    connection_pool (2.4.1)
+    drb (2.1.1)
+      ruby2_keywords
+    erb (4.0.3)
+      cgi (>= 0.3.3)
+    i18n (1.14.1)
+      concurrent-ruby (~> 1.0)
+    minitest (5.20.0)
+    mutex_m (0.1.2)
     rake (13.0.6)
+    ruby2_keywords (0.0.5)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+    wicked_pdf (2.7.0)
+      activesupport
 
 PLATFORMS
   arm64-darwin-22
 
 DEPENDENCIES
+  benchmark (~> 0.2.1)
+  erb (~> 4.0)
   rake
+  wicked_pdf (~> 2.7)
 
 BUNDLED WITH
    2.4.3
