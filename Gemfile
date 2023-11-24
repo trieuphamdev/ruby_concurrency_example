@@ -1,9 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rake'
-
-gem "wicked_pdf", "~> 2.7"
-
-gem "erb", "~> 4.0"
-
 gem "benchmark", "~> 0.2.1"
+
+gem "benchmark-memory", "~> 0.2.0"
+
+gem "fiber_scheduler", "~> 0.13.0"
